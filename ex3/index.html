@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title>Ex3</title>
+       <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <table>
+            <thead>
+                <tr>
+                    <td></td>
+                    <td>Image dynamique</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <div id="img"></div>
+                        <br><br>
+                        <button id="ouvrir">Ouvrir un nouveau popup</button>
+                        <button id="fermer">Refermer le popup</button>
+                    </td>
+                    <td>
+                        Tableau de bord<br><br>
+                        <button id="haut" onclick="move('top')">haut</button>
+                        <br>
+                        <button id="gauche" onclick="move('left')">gauche</button>
+                        <button id="droite" onclick="move('right')">droite</button>
+                        <br>
+                        <button id="bas" onclick="move('bottom')">bas</button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <script src="script.js"></script>
+    </body>
+</html>
